@@ -8,6 +8,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
 /* mixin start
 	============================================================================================ */
 /* Medium Layout: 1280px */
@@ -19,7 +20,7 @@
 /* global style start
 	============================================================================================ */
 body {
-  color: #888888;
+  color: #000000;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -76,7 +77,7 @@ h1,
 @media (max-width: 768px) {
   h1,
   .h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
@@ -149,18 +150,18 @@ h3, .h3 {
 }
 
 .generic-margin {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 @media (min-width: 992px) {
   .generic-margin {
-    margin-top: 180px;
+    margin-top: 80px;
   }
 }
 
 @media (min-width: 1200px) {
   .generic-margin {
-    margin-top: 250px;
+    margin-top: 150px;
   }
 }
 
@@ -367,7 +368,7 @@ h3, .h3 {
 }
 
 .header_area.navbar_fixed .main_menu .navbar {
-  background: #7676ff;
+  background: #000000;
 }
 
 .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
@@ -838,7 +839,7 @@ h3, .h3 {
 
 @media (max-width: 991px) {
   .hero-banner h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
@@ -885,37 +886,12 @@ h3, .h3 {
   position: relative;
 }
 
-.bg-shape::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 595px;
-  height: 660px;
-  background: url(../img/home/bg-shape-left.png) left center no-repeat;
-  background-size: cover;
-  z-index: -1;
-}
-
 @media (max-width: 620px) {
   .bg-shape::before {
     display: none;
   }
 }
 
-.bg-shape::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 755px;
-  height: 860px;
-  background: url(../img/home/bg-shape-right.png) left center no-repeat;
-  background-size: cover;
-  z-index: -1;
-}
 
 @media (max-width: 620px) {
   .bg-shape::after {
@@ -976,7 +952,7 @@ h3, .h3 {
 /* section intro end
 	============================================================================================ */
 .service-card {
-  background: #f8f8ff;
+  background: #69fdef;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2867,6 +2843,8 @@ button.button {
   overflow: hidden;
   float: left;
   margin-bottom: 15px;
+  display: block;
+  width: 100%;
 }
 .props:after{
   content: '';
@@ -2897,3 +2875,19 @@ button.button {
     margin-top: -80px;
   }
 }
+
+@media (max-width: 768px) {
+  .secondFeatureDesktop {
+    display: none;
+  }
+}
+
+.secondFeatureMobile {
+  visibility: visible;
+  display: none;
+}
+
+.sortable-handler {
+  touch-action: none;
+}
+
