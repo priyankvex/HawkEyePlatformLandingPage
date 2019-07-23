@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900&display=swap');
 /* mixin start
 	============================================================================================ */
 /* Medium Layout: 1280px */
@@ -25,6 +26,33 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.667;
+}
+
+.genericSubText {
+  font-size: 20px;
+  font-family:  "Roboto", sans-serif;
+}
+
+#whyYouWillLoveHawkEyePlatform {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.textTile {
+  background: #6eedee;
+  padding: 5px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.textBoldFace {
+  padding: 5px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 ul {
@@ -51,13 +79,13 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Abril Fatface", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #000000;
   line-height: 1.25;
 }
 
 .signUpTitle {
-  font-family: "Abril Fatface", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #444444;
   line-height: 1.25;
 }
@@ -71,13 +99,13 @@ h6 {
 
 h1,
 .h1 {
-  font-size: 40px;
+  font-size: 60px;
 }
 
 @media (max-width: 768px) {
   h1,
   .h1 {
-    font-size: 25px;
+    font-size: 35px;
   }
 }
 
@@ -89,7 +117,7 @@ h2,
 @media (min-width: 768px) {
   h2,
   .h2 {
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 
@@ -827,19 +855,19 @@ h3, .h3 {
 }
 
 .hero-banner h1 {
-  text-transform: uppercase;
+  font-weight: bolder;
   color: #000000;
 }
 
 @media (max-width: 1200px) {
   .hero-banner h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
 }
 
 @media (max-width: 991px) {
   .hero-banner h1 {
-    font-size: 25px;
+    font-size: 50px;
   }
 }
 
@@ -2838,7 +2866,7 @@ button.button {
 /* ================ title rotation stuff ========= */
 
 .props{
-  height: 50px;
+  height: 100px;
   position: relative;
   overflow: hidden;
   float: left;
@@ -2857,19 +2885,19 @@ button.button {
 .props li{
   transition: all .5s ease;
   position: relative;
-  height: 50px;
+  height: 100px;
   text-align: left;
 }
 .props li:nth-of-type(5){
-  margin-top: -100px;
+  margin-top: -200px;
 }
 
 @media (max-width: 750px) {
   .props{
-    height: 35px;
+    height: 150px;
   }
   .props li {
-    height: 40px;
+    height: 150px;
   }
   .props li:nth-of-type(5){
     margin-top: -80px;
