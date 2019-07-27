@@ -992,6 +992,7 @@ h3, .h3 {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  border-radius: 8px;
 }
 
 .service-card-img {
@@ -1280,6 +1281,7 @@ h3, .h3 {
 ============================================================================================ */
 .card-blog {
   background: #69fdef;
+  border-radius: 8px;
 }
 
 .card-blog .card-blog-body {
@@ -1307,7 +1309,11 @@ h3, .h3 {
 }
 
 .card-blog:hover .card-blog-body {
-  box-shadow: 0px 10px 20px 0px rgba(14, 30, 112, 0.1);
+  box-shadow: 0px 15px 30px 0px #dedede;
+}
+
+.service-card:hover {
+  box-shadow: 0px 20px 40px 0px #dedede;
 }
 
 .card-blog-info {
