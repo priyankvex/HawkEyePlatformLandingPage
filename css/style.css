@@ -971,7 +971,7 @@ h3, .h3 {
 /* section intro start
 	============================================================================================ */
 .section-intro {
-  max-width: 640px;
+  max-width: 740px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1038,7 +1038,7 @@ h3, .h3 {
 
 @media (min-width: 768px) {
   .about-content p {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
 }
 
@@ -1046,7 +1046,13 @@ h3, .h3 {
   .about-img {
     position: relative;
     left: -100px;
+    width: 600px;
+    height: 450px;
   }
+}
+
+.about-img {
+  background: #B4FEF7;
 }
 
 .tour-card {
