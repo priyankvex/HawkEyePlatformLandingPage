@@ -40,6 +40,13 @@ body {
   font-weight: 600;
 }
 
+#HopeInHomePage {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
 .textTile {
   background: #6eedee;
   padding: 5px;
@@ -273,7 +280,7 @@ h3, .h3 {
 
 .header_area .navbar .nav .nav-item .nav-link {
   font-family: "Roboto", sans-serif;
-  color: #2a2a2a;
+  color: #dedede;
   text-transform: capitalize;
   font-weight: 500;
   padding: 33px 0;
@@ -411,7 +418,7 @@ h3, .h3 {
 }
 
 .header_area.navbar_fixed .main_menu .navbar .nav .nav-item:hover .nav-link, .header_area.navbar_fixed .main_menu .navbar .nav .nav-item.active .nav-link {
-  color: #fff;
+  color: #69fdef;
 }
 
 @media (min-width: 992px) {
@@ -993,6 +1000,7 @@ h3, .h3 {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   border-radius: 8px;
+  height: 510px;
 }
 
 .service-card-img {
