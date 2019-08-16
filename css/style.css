@@ -4,12 +4,10 @@
 	============================================================================================ */
 /* google fonts
 	============================================================================================ */
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700");
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto:900&display=swap');
 /* mixin start
 	============================================================================================ */
 /* Medium Layout: 1280px */
@@ -22,7 +20,7 @@
 	============================================================================================ */
 body {
   color: #000000;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.667;
@@ -30,19 +28,19 @@ body {
 
 .genericSubText {
   font-size: 20px;
-  font-family:  "Roboto", sans-serif;
+  font-family: sans-serif;
 }
 
 #whyYouWillLoveHawkEyePlatform {
   color: #000000;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-size: 40px;
   font-weight: 600;
 }
 
 #HopeInHomePage {
   color: #000000;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-size: 30px;
   font-weight: 600;
 }
@@ -93,13 +91,13 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   color: #000000;
   line-height: 1.25;
 }
 
 .signUpTitle {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   color: #444444;
   line-height: 1.25;
 }
@@ -279,7 +277,7 @@ h3, .h3 {
 }
 
 .header_area .navbar .nav .nav-item .nav-link {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   color: #dedede;
   text-transform: capitalize;
   font-weight: 500;
