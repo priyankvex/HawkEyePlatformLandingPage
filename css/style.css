@@ -1052,7 +1052,6 @@ h3, .h3 {
 
 @media (min-width: 1200px) {
   .about-img {
-    position: relative;
     left: -100px;
     width: 600px;
     height: 450px;
@@ -1060,7 +1059,8 @@ h3, .h3 {
 }
 
 .about-img {
-  background: #B4FEF7;
+  max-height: 450px;
+  max-width: 600px;
 }
 
 .tour-card {
