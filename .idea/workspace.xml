@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d24d06e-5754-48ec-8b51-35a4932bccbf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/img/home/section-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/home/section-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/how_it_works.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amentities.html" beforeDir="false" afterPath="$PROJECT_DIR$/amentities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/package.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +72,11 @@
       <workItem from="1563899067942" duration="155000" />
       <workItem from="1564245748619" duration="2077000" />
       <workItem from="1564910813252" duration="2339000" />
-      <workItem from="1565967410854" duration="5986000" />
+      <workItem from="1565967410854" duration="6388000" />
+      <workItem from="1566126371134" duration="169000" />
+      <workItem from="1566226491430" duration="4750000" />
+      <workItem from="1566396719225" duration="2645000" />
+      <workItem from="1566489091176" duration="439000" />
     </task>
     <servers />
   </component>
@@ -75,7 +88,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
