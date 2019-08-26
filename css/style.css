@@ -54,14 +54,12 @@ body {
 }
 
 .textBoldFace {
-  padding: 5px;
   color: #000000;
   font-weight: 600;
   font-size: 20px;
 }
 
 .textBoldFaceLarge {
-  padding: 5px;
   color: #000000;
   font-weight: 600;
   font-size: 40px;
@@ -1000,7 +998,7 @@ h3, .h3 {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   border-radius: 8px;
-  height: 460px;
+  height: 480px;
 }
 
 .service-card-img {
