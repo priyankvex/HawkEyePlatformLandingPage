@@ -65,6 +65,13 @@ body {
   font-size: 40px;
 }
 
+.textDarkColorSuperLarge {
+  color: #000000;
+  font-weight: 600;
+  font-size: 60px;
+  width: 100%;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
