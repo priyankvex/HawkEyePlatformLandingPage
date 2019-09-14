@@ -306,10 +306,10 @@ h3, .h3 {
 
 .header_area .navbar .nav .nav-item.submenu ul {
   border: none;
-  padding: 0px;
-  border-radius: 0px;
+  padding: 0;
+  border-radius: 0;
   box-shadow: none;
-  margin: 0px;
+  margin: 0;
   background: #fff;
 }
 
@@ -419,6 +419,7 @@ h3, .h3 {
 
 .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
   line-height: 20px;
+  color: #dedede;
 }
 
 .header_area.navbar_fixed .main_menu .navbar .nav .nav-item:hover .nav-link, .header_area.navbar_fixed .main_menu .navbar .nav .nav-item.active .nav-link {
